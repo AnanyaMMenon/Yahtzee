@@ -196,6 +196,8 @@ class ScorecardDisplay extends StatelessWidget {
     );
   }
 
+
+
 Widget _buildScoreOption(BuildContext context, ScoreCategory category, int? score) {
   bool isDisabled = score != null; // If score is already assigned, disable selection
 
